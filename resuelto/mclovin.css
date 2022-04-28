@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    width: max-content;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.img-perfil {
+    width: 350px;
+    height: 400px;
+}
+
+.cod-barras {
+    width: 100%;
+}
+
+.name,
+.dir {
+    margin: 0;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.col-2 {
+    padding-left: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.state {
+    margin: 0;
+    font-size: 4em;
+    color: rgb(15, 104, 162); 
+    text-shadow: 3px 3px 0 black;
+}
+
+.doc-type {
+    padding-left: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    color:rgb(15, 104, 162);    
+}
+
+.dato {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.p-number {
+    margin-bottom: 15px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+th {
+    padding-right: 40px;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+td {
+    padding-right: 40px;
+    font-size: 0.9em;
+}
+
+.firma {
+    margin: 30px;
+}
+
